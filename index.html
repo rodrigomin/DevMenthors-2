@@ -126,52 +126,73 @@
 
     <section class="feedback section" id="feedback">
         <h1 style="font-size: 45px;"> Feedbacks </h1>
-        
+            <div class="feed-container" id="feed-container"></div>
+            <div aria-hidden="true" class="feed-container2" id="feed-container2"></div>
     </section>
 
-    <section>
-        <div class="flex-row" style="position: relative;" >
+    <section id="duvidas">
+        <div class="flex-row flex" style="position: relative;" >
                 <div class="footer-left section" style="width: 50%; z-index: 1;">
                     <h1 style="font-size: 45px; margin-bottom: 50px;">Dev responde <br> Dúvidas Frequentes</h1>
 
                     <hr>
 
-                    <div class="flex-row between" style="padding: 15px;">
+                    <div class="flex-col" style="padding: 15px;">
+                        <div class="flex-row between">
                         <label style="font-size: 25px; font-weight: 300;"> 01 - Para quem é o Dev? </label>
-                        <div class="interactive">
+                        <div class="arrow">
                             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
                             </svg>
                         </div>
+                        </div>
+                        <div>
+                            <p class="texto-duvidas texto-duvidas-before"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores nostrum hic, molestiae eaque dolorum libero inventore, quisquam ex vero aspernatur illo ab doloremque quidem? Porro quia delectus beatae eius?</p>
+                        </div>
                     </div>
                     <hr>
 
-                    <div class="flex-row between" style="padding: 15px;">
+                    <div class="flex-col" style="padding: 15px;">
+                        <div class="flex-row between">
                         <label style="font-size: 25px; font-weight: 300;"> 02 - Como participar? </label>
-                        <div class="interactive">
+                        <div class="arrow">
                             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
                             </svg>
                         </div>
+                        </div>
+                        <div>
+                            <p class="texto-duvidas texto-duvidas-before"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores nostrum hic, molestiae eaque dolorum libero inventore, quisquam ex vero aspernatur illo ab doloremque quidem? Porro quia delectus beatae eius?</p>
+                        </div>
                     </div>
                     <hr>
 
-                    <div class="flex-row between" style="padding: 15px;">
+                    <div class="flex-col" style="padding: 15px;">
+                        <div class="flex-row between">
                         <label style="font-size: 25px; font-weight: 300;"> 03 - Qual o Valor? </label>
-                        <div class="interactive">
+                        <div class="arrow">
                             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
                             </svg>
                         </div>
+                        </div>
+                        <div>
+                            <p class="texto-duvidas texto-duvidas-before"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores nostrum hic, molestiae eaque dolorum libero inventore, quisquam ex vero aspernatur illo ab doloremque quidem? Porro quia delectus beatae eius?</p>
+                        </div>
                     </div>
                     <hr>
 
-                    <div class="flex-row between" style="padding: 15px;">
+                    <div class="flex-col" style="padding: 15px;">
+                        <div class="flex-row between">
                         <label style="font-size: 25px; font-weight: 300;"> 04 - Onde fica? </label>
-                        <div class="interactive">
+                        <div class="arrow">
                             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
                             </svg>
+                        </div>
+                        </div>
+                        <div>
+                            <p class="texto-duvidas texto-duvidas-before"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores nostrum hic, molestiae eaque dolorum libero inventore, quisquam ex vero aspernatur illo ab doloremque quidem? Porro quia delectus beatae eius?</p>
                         </div>
                     </div>
                     <hr>
@@ -194,9 +215,11 @@
                 </div>
             </div>
     </section>
-    <footer>
+    
+
+    <footer style="padding-bottom: 50px;">
         <div class="flex-col" style="position: relative;">
-            <div class="absolute svg-footer" style="left: 0; bottom: 0">
+            <div class="absolute svg-footer" style="left: 0; bottom: 1">
                 <svg width="530" height="224" viewBox="0 0 530 224" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M158 178C256.4 41.2 -11.6667 2.66667 -158 0.5L-341 2.5L-332.5 578H-199H486C530.833 531.833 578.9 439.5 412.5 439.5C204.5 439.5 35 349 158 178Z" fill="#0876F6" stroke="#0876F6"/>
                     <path d="M142 189C240.4 52.2 -27.6667 13.6667 -174 11.5L-357 13.5L-348.5 589H-215H470C514.833 542.833 562.9 450.5 396.5 450.5C188.5 450.5 19 360 142 189Z" fill="#0064BB" stroke="#0064BB"/>
@@ -224,7 +247,7 @@
             </div>
 
 
-            <div class="absolute svg-footer" style="right: 0; bottom: 0">
+            <div class="absolute svg-footer" style="right: 0; bottom: 1">
                 <svg width="499" height="225" viewBox="0 0 499 225" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M371.36 149.569C272.932 34.681 541.074 2.31962 687.449 0.5L870.5 2.17965L861.998 485.5H728.46L43.2679 485.5C-1.578 446.728 -49.6582 369.184 116.789 369.184C324.847 369.184 494.395 293.18 371.36 149.569Z" fill="#0876F6" stroke="#0876F6"/>
                     <path d="M382.36 158.569C283.932 43.681 552.074 11.3196 698.449 9.5L881.5 11.1797L872.998 494.5H739.46L54.2679 494.5C9.422 455.728 -38.6582 378.184 127.789 378.184C335.847 378.184 505.395 302.18 382.36 158.569Z" fill="#0064BB" stroke="#0064BB"/>
