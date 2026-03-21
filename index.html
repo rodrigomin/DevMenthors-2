@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+    <title>DevMenthors - Home</title>
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="interactive icon">
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.77761 3.76664H9.15982C9.15982 3.76664 9.16668 12.1306 15.716 16.0208C15.716 16.0208 10.1369 18.0804 8.07742 27.6915H5.10712C5.10941 27.6915 -6.81984 15.998 5.77761 3.76664Z" fill="#3C96FF"/>
+                <path d="M17.6588 16.0208C17.6588 16.0208 25.4713 13.9613 27.9885 11.4441H32C32 11.4441 31.4966 16.0208 25.6223 16.0208H17.6588Z" fill="#3C96FF"/>
+                <path d="M17.6588 16.0208C17.6588 16.0208 25.4713 18.0804 27.9885 20.5976H32C32 20.5976 31.4966 16.0208 25.6223 16.0208H17.6588Z" fill="#3C96FF"/>
+                <path d="M16.5466 0L19.7504 2.97716C19.7504 2.97716 24.3271 2.51949 27.5308 7.55389H30.2105C30.2105 7.55389 26.3866 0.22426 16.5466 0Z" fill="#3C96FF"/>
+                <path d="M16.5466 32.0417L19.7504 29.0645C19.7504 29.0645 24.3271 29.5222 27.5308 24.4878H30.2105C30.2105 24.4878 26.3866 31.8151 16.5466 32.0417Z" fill="#3C96FF"/>
+            </svg>
+        </div>
+
+        <div style="display: flex; gap: 50px">
+            <a><label class="interactive header-title"> Home </label></a>
+            <a href="#sobre"><label class="interactive header-title"> Sobre </label></a>
+            <a><label class="interactive header-title"> Blog </label></a>
+        </div>
+
+        <a> <button class="button interactive"> Login </button> </a>
+    </header>
+
+    <section class="hero section">
+
+        <div class="hero-container">
+            <div class="devmenthors-title">
+                <h1> Dev Menthors <span>Unimar</span></h1> 
+            </div>
+            <img src="./assets/hero-img.jpeg">
+        </div>
+        
+    </section>
+
+    <section class="inicie section">
+        <div class="inicie-container">
+            <div class="inicie-left">
+                <h1> Inicie sua história na área da tecnologia como Dev </h1>
+                <p> Conheça um pouco de cada uma das trilhas disponíveis. </p>
+                <img style="width: 500px;" class="center bordered" src="./assets/naosei.jpeg">
+            </div>
+
+            <div class="inicie-right"> 
+                <div style="display: flex; flex-direction: column; gap: 25px"> 
+
+                <div class="card flex-row interactive" style="gap: 50px">
+
+                    <div class="center">
+                        <svg width="104" height="96" viewBox="0 0 104 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 60V36H28.1667C29.9 36 31.4167 36.6 32.7167 37.8C34.0167 39 34.6667 40.4 34.6667 42V46C34.6667 47.6 34.0167 49 32.7167 50.2C31.4167 51.4 29.9 52 28.1667 52H19.5V60H13ZM41.1667 60V36H47.6667V44H56.3333V36H62.8333V60H56.3333V50H47.6667V60H41.1667ZM71.5 60V36H86.6667C88.4 36 89.9167 36.6 91.2167 37.8C92.5167 39 93.1667 40.4 93.1667 42V46C93.1667 47.6 92.5167 49 91.2167 50.2C89.9167 51.4 88.4 52 86.6667 52H78V60H71.5ZM19.5 46H28.1667V42H19.5V46ZM78 46H86.6667V42H78V46Z" fill="#3C96FF"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <h1> Desenvolvimento Backend</h1>
+                        <p> Descubra como dar vida às funcionalidades de um site.</p>
+                    </div>
+                </div>
+
+                <div class="card flex-row interactive" style="gap: 50px">
+
+                    <div class="center">
+                        <svg width="104" height="96" viewBox="0 0 104 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32.5 60C30.6944 60 29.1597 59.4167 27.8958 58.25C26.6319 57.0833 26 55.6667 26 54V50H32.5V54H39V36H45.5V54C45.5 55.6667 44.8681 57.0833 43.6042 58.25C42.3403 59.4167 40.8056 60 39 60H32.5ZM56.3333 60C55.1056 60 54.0764 59.6167 53.2458 58.85C52.4153 58.0833 52 57.1333 52 56V52H58.5V54H67.1667V50H56.3333C55.1056 50 54.0764 49.6167 53.2458 48.85C52.4153 48.0833 52 47.1333 52 46V40C52 38.8667 52.4153 37.9167 53.2458 37.15C54.0764 36.3833 55.1056 36 56.3333 36H69.3333C70.5611 36 71.5903 36.3833 72.4208 37.15C73.2514 37.9167 73.6667 38.8667 73.6667 40V44H67.1667V42H58.5V46H69.3333C70.5611 46 71.5903 46.3833 72.4208 47.15C73.2514 47.9167 73.6667 48.8667 73.6667 50V56C73.6667 57.1333 73.2514 58.0833 72.4208 58.85C71.5903 59.6167 70.5611 60 69.3333 60H56.3333Z" fill="#3C96FF"/>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <h1> Desenvolvimento Backend</h1>
+                        <p> Descubra como dar vida às funcionalidades de um site.</p>
+                    </div>
+                </div>
+
+                <div class="card flex-row interactive" style="gap: 50px">
+
+                    <div class="center">
+                        <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M37.5 65.625C29.6354 65.625 22.9818 64.4141 17.5391 61.9922C12.0964 59.5703 9.375 56.6146 9.375 53.125V21.875C9.375 18.4375 12.1224 15.4948 17.6172 13.0469C23.112 10.599 29.7396 9.375 37.5 9.375C45.2604 9.375 51.888 10.599 57.3828 13.0469C62.8776 15.4948 65.625 18.4375 65.625 21.875V53.125C65.625 56.6146 62.9036 59.5703 57.4609 61.9922C52.0182 64.4141 45.3646 65.625 37.5 65.625ZM37.5 28.2031C42.1354 28.2031 46.7969 27.5391 51.4844 26.2109C56.1719 24.8828 58.8021 23.4635 59.375 21.9531C58.8021 20.4427 56.1849 19.0104 51.5234 17.6562C46.862 16.3021 42.1875 15.625 37.5 15.625C32.7604 15.625 28.112 16.2891 23.5547 17.6172C18.9974 18.9453 16.3542 20.3906 15.625 21.9531C16.3542 23.5156 18.9974 24.9479 23.5547 26.25C28.112 27.5521 32.7604 28.2031 37.5 28.2031ZM37.5 43.75C39.6875 43.75 41.7969 43.6458 43.8281 43.4375C45.8594 43.2292 47.7995 42.9297 49.6484 42.5391C51.4974 42.1484 53.2422 41.6667 54.8828 41.0938C56.5234 40.5208 58.0208 39.8698 59.375 39.1406V29.7656C58.0208 30.4948 56.5234 31.1458 54.8828 31.7188C53.2422 32.2917 51.4974 32.7734 49.6484 33.1641C47.7995 33.5547 45.8594 33.8542 43.8281 34.0625C41.7969 34.2708 39.6875 34.375 37.5 34.375C35.3125 34.375 33.1771 34.2708 31.0938 34.0625C29.0104 33.8542 27.0443 33.5547 25.1953 33.1641C23.3464 32.7734 21.6146 32.2917 20 31.7188C18.3854 31.1458 16.9271 30.4948 15.625 29.7656V39.1406C16.9271 39.8698 18.3854 40.5208 20 41.0938C21.6146 41.6667 23.3464 42.1484 25.1953 42.5391C27.0443 42.9297 29.0104 43.2292 31.0938 43.4375C33.1771 43.6458 35.3125 43.75 37.5 43.75ZM37.5 59.375C39.8958 59.375 42.3307 59.1927 44.8047 58.8281C47.2786 58.4635 49.5573 57.9818 51.6406 57.3828C53.724 56.7839 55.4688 56.1068 56.875 55.3516C58.2812 54.5964 59.1146 53.8281 59.375 53.0469V45.3906C58.0208 46.1198 56.5234 46.7708 54.8828 47.3438C53.2422 47.9167 51.4974 48.3984 49.6484 48.7891C47.7995 49.1797 45.8594 49.4792 43.8281 49.6875C41.7969 49.8958 39.6875 50 37.5 50C35.3125 50 33.1771 49.8958 31.0938 49.6875C29.0104 49.4792 27.0443 49.1797 25.1953 48.7891C23.3464 48.3984 21.6146 47.9167 20 47.3438C18.3854 46.7708 16.9271 46.1198 15.625 45.3906V53.125C15.8854 53.9062 16.7057 54.6615 18.0859 55.3906C19.4661 56.1198 21.1979 56.7839 23.2812 57.3828C25.3646 57.9818 27.6562 58.4635 30.1562 58.8281C32.6562 59.1927 35.1042 59.375 37.5 59.375Z" fill="#3C96FF"/>
+                        </svg>
+
+                    </div>
+
+                    <div>
+                        <h1> Banco de Dados </h1>
+                        <p> Descubra como dar vida às funcionalidades de um site.</p>
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre section" id="sobre">
+        <div class="flex-row">
+            <div style="width: 50%;">
+                <h1 style="font-weight: bold; font-size: 45px"> O que é o DevMenthors </h1>
+                <p style="font-size: 25px;"> O DevMenthors nasceu em 2022 para capacitar jovens com habilidades técnicas (hard skills) e interpessoais (soft skills). Nosso foco vai além da tecnologia: ajudamos você a desenvolver liderança, comunicação e trabalho em equipe, preparando-se para os desafios do mercado. Aqui , formamos profissionais completos e prontos para brilhar!</p>
+            </div>
+
+            <div class="flex center" style="margin: 50px;">
+                <div class="white-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comofunciona flex-row section" style="gap: 85px;">
+        <div class="flex-row">
+            <div class="white-container"></div>
+        </div>
+        <div class="flex-col">
+            <h1 style="font-size: 45px; font-weight: bold;"> Como o Dev Funciona </h1>
+            <p style="font-size: 25px;"> No DevMenthors, você aprende fazendo! Com treinamentos em HTML, CSS, JavaScript, PHP e Laravel, jovens desenvolvem projetos reais com o apoio de mentores. Além das habilidades técnicas, também adquirem soft skills como liderança e trabalho em equipe. Quem se destaca vira mentor e ajuda a próxima geração de devs. Junte-se ao ciclo de aprendizado e crescimento!</p>
+        </div>
+    </section>
+
+    <section class="feedback section" id="feedback">
+        <h1 style="font-size: 45px;"> Feedbacks </h1>
+        
+    </section>
+
+    <section>
+        <div class="flex-row" style="position: relative;" >
+                <div class="footer-left section" style="width: 50%; z-index: 1;">
+                    <h1 style="font-size: 45px; margin-bottom: 50px;">Dev responde <br> Dúvidas Frequentes</h1>
+
+                    <hr>
+
+                    <div class="flex-row between" style="padding: 15px;">
+                        <label style="font-size: 25px; font-weight: 300;"> 01 - Para quem é o Dev? </label>
+                        <div class="interactive">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="flex-row between" style="padding: 15px;">
+                        <label style="font-size: 25px; font-weight: 300;"> 02 - Como participar? </label>
+                        <div class="interactive">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="flex-row between" style="padding: 15px;">
+                        <label style="font-size: 25px; font-weight: 300;"> 03 - Qual o Valor? </label>
+                        <div class="interactive">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="flex-row between" style="padding: 15px;">
+                        <label style="font-size: 25px; font-weight: 300;"> 04 - Onde fica? </label>
+                        <div class="interactive">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.75 18.75L22.5 30L11.25 18.75L13.875 16.125L22.5 24.75L31.125 16.125L33.75 18.75Z" fill="#3C96FF"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div style="z-index: 0; position: absolute; right: 0; bottom: 10; justify-content: right; align-items: end; padding: 0px; display: flex; pointer-events: none;" class="footer-right">
+                    <svg width="809" height="1417" viewBox="0 0 809 1417" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_f_1_91)">
+                        <path d="M1166 726C1166 878.431 1194.72 1017.99 997 1017.99C799.282 1017.99 450 878.431 450 726C450 573.569 610.282 450 808 450C1005.72 450 1166 573.569 1166 726Z" fill="#82AEFF"/>
+                        </g>
+                        <defs>
+                        <filter id="filter0_f_1_91" x="0" y="0" width="1617.46" height="1467.99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                        <feGaussianBlur stdDeviation="225" result="effect1_foregroundBlur_1_91"/>
+                        </filter>
+                        </defs>
+                    </svg>
+
+                </div>
+            </div>
+    </section>
+    <footer>
+        <div class="flex-col" style="position: relative;">
+            <div class="absolute svg-footer" style="left: 0; bottom: 0">
+                <svg width="530" height="224" viewBox="0 0 530 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M158 178C256.4 41.2 -11.6667 2.66667 -158 0.5L-341 2.5L-332.5 578H-199H486C530.833 531.833 578.9 439.5 412.5 439.5C204.5 439.5 35 349 158 178Z" fill="#0876F6" stroke="#0876F6"/>
+                    <path d="M142 189C240.4 52.2 -27.6667 13.6667 -174 11.5L-357 13.5L-348.5 589H-215H470C514.833 542.833 562.9 450.5 396.5 450.5C188.5 450.5 19 360 142 189Z" fill="#0064BB" stroke="#0064BB"/>
+                    <path d="M120 201C218.4 64.2 -49.6667 25.6667 -196 23.5L-379 25.5L-370.5 601H-237H448C492.833 554.833 540.9 462.5 374.5 462.5C166.5 462.5 -3 372 120 201Z" fill="#003F88" stroke="#0064BB"/>
+                </svg>
+            </div>
+
+            <div class="flex flex-row center" style="text-align: center; gap: 150px;">
+                <img src="./assets/devMenthorsico-footer.jpeg" style="width: 50px;">
+
+                <div class="flex-col" style="text-align: left;">
+                    <h1> Contato </h1>
+                    <p> Contato@devmenthors.com </p>
+                </div>
+
+                <div class="flex-col" style="text-align: left;">
+                    <h1> Links </h1>
+                    <a class="interactive"><label> Sobre</label></a>
+                    <a class="interactive"><label> Hackaton</label></a>
+                    <a class="interactive"><label> Feedbacks</label></a>
+                    <a class="interactive"><label> FAQ</label></a>
+                </div>
+
+                <a class="interactive"> Nossas Redes </a>
+            </div>
+
+
+            <div class="absolute svg-footer" style="right: 0; bottom: 0">
+                <svg width="499" height="225" viewBox="0 0 499 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M371.36 149.569C272.932 34.681 541.074 2.31962 687.449 0.5L870.5 2.17965L861.998 485.5H728.46L43.2679 485.5C-1.578 446.728 -49.6582 369.184 116.789 369.184C324.847 369.184 494.395 293.18 371.36 149.569Z" fill="#0876F6" stroke="#0876F6"/>
+                    <path d="M382.36 158.569C283.932 43.681 552.074 11.3196 698.449 9.5L881.5 11.1797L872.998 494.5H739.46L54.2679 494.5C9.422 455.728 -38.6582 378.184 127.789 378.184C335.847 378.184 505.395 302.18 382.36 158.569Z" fill="#0064BB" stroke="#0064BB"/>
+                    <path d="M401.36 158.569C302.932 43.681 571.074 11.3196 717.449 9.5L900.5 11.1797L891.998 494.5H758.46L73.2679 494.5C28.422 455.728 -19.6582 378.184 146.789 378.184C354.847 378.184 524.395 302.18 401.36 158.569Z" fill="#003F88" stroke="#0064BB"/>
+                </svg>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
