@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <form>
+        <div class="form-container">
+
+            <img src="https://devmenthors.com.br/img/logo_rodape.png">
+            <h1 class="title"> Acesse sua conta </h1>
+            <p class="subtitle"> Escolha seu perfil abaixo para continuar </p>
+            
+            <div class='slider-container'>
+                <button type="button" class="switch-optn-aluno" id="aluno"> Sou Aluno </button>
+                <button type="button" id="mentor"> Sou Mentor </button>
+            </div>
+
+            
+            <div class="flex col center" id="dispaluno">
+                <div class="flex col">
+
+                    <label> E-MAIL DO ALUNO </label>
+                    <div style="display: flex; position: relative;">
+                        <input placeholder='seuemail@gmail.com' id="nome" name="user" type="text" class='input' required>
+                        <svg class='svg' height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#64748B"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#64748B;} </style> <g> <path class="st0" d="M505.837,180.418L279.265,76.124c-7.349-3.385-15.177-5.093-23.265-5.093c-8.088,0-15.914,1.708-23.265,5.093 L6.163,180.418C2.418,182.149,0,185.922,0,190.045s2.418,7.896,6.163,9.627l226.572,104.294c7.349,3.385,15.177,5.101,23.265,5.101 c8.088,0,15.916-1.716,23.267-5.101l178.812-82.306v82.881c-7.096,0.8-12.63,6.84-12.63,14.138c0,6.359,4.208,11.864,10.206,13.618 l-12.092,79.791h55.676l-12.09-79.791c5.996-1.754,10.204-7.259,10.204-13.618c0-7.298-5.534-13.338-12.63-14.138v-95.148 l21.116-9.721c3.744-1.731,6.163-5.504,6.163-9.627S509.582,182.149,505.837,180.418z"></path> <path class="st0" d="M256,346.831c-11.246,0-22.143-2.391-32.386-7.104L112.793,288.71v101.638 c0,22.314,67.426,50.621,143.207,50.621c75.782,0,143.209-28.308,143.209-50.621V288.71l-110.827,51.017 C278.145,344.44,267.25,346.831,256,346.831z"></path> </g> </g></svg>
+                    </div>
+                </div>
+
+                <div class="flex col">
+                    <label> SENHA </label>
+                    <div style="display: flex; position: relative;">
+                        <input placeholder='••••••••' id="senha" name='senha' type="password" required>
+                        <svg class='svg' height="20px" width="20px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#64748B"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect width="16" height="16" id="icon-bound" fill="none"></rect> <path d="M12.25,7H12V4c0-1.653-1.347-3-3-3H7C5.347,1,4,2.347,4,4v3H3.75C3.338,7,3,7.338,3,7.75v6.5C3,14.663,3.338,15,3.75,15h8.5 c0.413,0,0.75-0.337,0.75-0.75v-6.5C13,7.338,12.663,7,12.25,7z M6,4c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v3H6V4z"></path> </g></svg>
+                    </div>
+                </div>
+
+                <button class="button" type="submit" style="margin-top: 15px; filter: drop-shadow(10px 5px 10px #3c97ffa8);"> Entrar como Aluno </button>
+
+                <a class="subtitle" style="font-size: small;"> <svg fill="#94A3B8" height="15px" width="15px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 292.146 292.146" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M265.818,26.328c-35.103-35.104-92.017-35.104-127.12,0c-23.7,23.7-31.374,57.337-23.073,87.496L7.057,222.391 c-2.456,2.456-3.933,5.725-4.152,9.19l-2.876,45.386c-0.259,4.093,1.253,8.098,4.152,10.997c2.899,2.899,6.905,4.412,10.997,4.152 l45.386-2.876c3.466-0.22,6.734-1.696,9.19-4.153l7.651-7.65c3.987-3.987,5.672-9.727,4.473-15.237l-3.859-17.735 c-0.259-1.191,0.105-2.432,0.967-3.294c0.862-0.862,2.103-1.227,3.294-0.967l17.735,3.86c5.509,1.199,11.249-0.486,15.236-4.473 c3.987-3.987,5.672-9.727,4.473-15.236l-3.859-17.734c-0.259-1.191,0.105-2.432,0.967-3.294c0.862-0.862,2.103-1.227,3.294-0.967 l17.735,3.86c5.509,1.199,11.249-0.486,15.236-4.473l25.224-25.224c30.16,8.303,63.797,0.628,87.497-23.072 C300.922,118.346,300.922,61.431,265.818,26.328z M119.566,166.925l-71.771,71.771c-1.953,1.952-4.512,2.929-7.071,2.929 s-5.118-0.977-7.071-2.929c-3.905-3.905-3.905-10.237,0-14.142l71.771-71.771c3.906-3.904,10.236-3.904,14.143,0 C123.471,156.687,123.471,163.019,119.566,166.925z M228.122,115.752c-14.284,14.284-37.445,14.284-51.729,0 c-14.283-14.282-14.283-37.443,0.002-51.728c14.282-14.283,37.443-14.283,51.726,0C242.405,78.308,242.405,101.47,228.122,115.752z"></path> </g></svg> Esqueceu a Senha? </a>
+                <p class="subtitle" style="font-size: small; margin-top: 45px;"> © 2026 DevMenthors Unimar. </p>
+            </div>
+
+
+            <div class="flex col center noview" id="dispmentor">
+                <div class="flex col">
+
+                    <label> E-MAIL CORPORATIVO </label>
+                    <div style="display: flex; position: relative;">
+                        <input placeholder='mentor@devmenthors.com' id="nome" name="user" type="text" class='input' required>
+                        <svg class='svg' height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#64748B"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#64748B;} </style> <g> <path class="st0" d="M505.837,180.418L279.265,76.124c-7.349-3.385-15.177-5.093-23.265-5.093c-8.088,0-15.914,1.708-23.265,5.093 L6.163,180.418C2.418,182.149,0,185.922,0,190.045s2.418,7.896,6.163,9.627l226.572,104.294c7.349,3.385,15.177,5.101,23.265,5.101 c8.088,0,15.916-1.716,23.267-5.101l178.812-82.306v82.881c-7.096,0.8-12.63,6.84-12.63,14.138c0,6.359,4.208,11.864,10.206,13.618 l-12.092,79.791h55.676l-12.09-79.791c5.996-1.754,10.204-7.259,10.204-13.618c0-7.298-5.534-13.338-12.63-14.138v-95.148 l21.116-9.721c3.744-1.731,6.163-5.504,6.163-9.627S509.582,182.149,505.837,180.418z"></path> <path class="st0" d="M256,346.831c-11.246,0-22.143-2.391-32.386-7.104L112.793,288.71v101.638 c0,22.314,67.426,50.621,143.207,50.621c75.782,0,143.209-28.308,143.209-50.621V288.71l-110.827,51.017 C278.145,344.44,267.25,346.831,256,346.831z"></path> </g> </g></svg>
+                    </div>
+                </div>
+
+                <div class="flex col">
+                    <label> SENHA </label>
+                    <div style="display: flex; position: relative;">
+                        <input placeholder='••••••••' id="senha" name='senha' type="password" required>
+                        <svg class='svg' height="20px" width="20px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#64748B"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect width="16" height="16" id="icon-bound" fill="none"></rect> <path d="M12.25,7H12V4c0-1.653-1.347-3-3-3H7C5.347,1,4,2.347,4,4v3H3.75C3.338,7,3,7.338,3,7.75v6.5C3,14.663,3.338,15,3.75,15h8.5 c0.413,0,0.75-0.337,0.75-0.75v-6.5C13,7.338,12.663,7,12.25,7z M6,4c0-0.55,0.45-1,1-1h2c0.55,0,1,0.45,1,1v3H6V4z"></path> </g></svg>
+                    </div>
+                </div>
+
+                <button class="button" type="submit" style="margin-top: 15px; background-color: #1E293B; filter: drop-shadow(10px 5px 10px #1e293b54);"> Entrar como Menthor </button>
+
+                <a class="subtitle" style="font-size: small;"> <svg fill="#94A3B8" height="15px" width="15px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 292.146 292.146" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M265.818,26.328c-35.103-35.104-92.017-35.104-127.12,0c-23.7,23.7-31.374,57.337-23.073,87.496L7.057,222.391 c-2.456,2.456-3.933,5.725-4.152,9.19l-2.876,45.386c-0.259,4.093,1.253,8.098,4.152,10.997c2.899,2.899,6.905,4.412,10.997,4.152 l45.386-2.876c3.466-0.22,6.734-1.696,9.19-4.153l7.651-7.65c3.987-3.987,5.672-9.727,4.473-15.237l-3.859-17.735 c-0.259-1.191,0.105-2.432,0.967-3.294c0.862-0.862,2.103-1.227,3.294-0.967l17.735,3.86c5.509,1.199,11.249-0.486,15.236-4.473 c3.987-3.987,5.672-9.727,4.473-15.236l-3.859-17.734c-0.259-1.191,0.105-2.432,0.967-3.294c0.862-0.862,2.103-1.227,3.294-0.967 l17.735,3.86c5.509,1.199,11.249-0.486,15.236-4.473l25.224-25.224c30.16,8.303,63.797,0.628,87.497-23.072 C300.922,118.346,300.922,61.431,265.818,26.328z M119.566,166.925l-71.771,71.771c-1.953,1.952-4.512,2.929-7.071,2.929 s-5.118-0.977-7.071-2.929c-3.905-3.905-3.905-10.237,0-14.142l71.771-71.771c3.906-3.904,10.236-3.904,14.143,0 C123.471,156.687,123.471,163.019,119.566,166.925z M228.122,115.752c-14.284,14.284-37.445,14.284-51.729,0 c-14.283-14.282-14.283-37.443,0.002-51.728c14.282-14.283,37.443-14.283,51.726,0C242.405,78.308,242.405,101.47,228.122,115.752z"></path> </g></svg> Esqueceu a Senha? </a>
+                <p class="subtitle" style="font-size: small; margin-top: 45px;"> © 2026 DevMenthors Unimar. </p>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>
